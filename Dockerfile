@@ -4,7 +4,7 @@ FROM python:3.9-slim
 # Working directory
 WORKDIR /code
 
-ENV FLASK_APP=app.py
+ENV FLASK_APP=main.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
 # Copy requirements file and install dependencies
