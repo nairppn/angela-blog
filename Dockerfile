@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8080
 
 # Command to start the server
-CMD ["Flask", "run", "0.0.0.0:8080", "app:app"]
+CMD ["Flask", "run", "--host=0.0.0.0:8080"]
